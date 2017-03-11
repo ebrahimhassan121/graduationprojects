@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 9, 2017, 1:30:15 PM
+    Author     : evich
+*/
+
+
+header, main, footer ,#breadcrumb {
+    padding-right: 300px;
+}
+.side-nav {
+    overflow-x: auto;
+    display: inline-block;
+   
+}
+ ::-webkit-scrollbar{width: 3px;}
+ ::-webkit-scrollbar:hover{width: 3px;}
+.side-nav:hover , .side-nav:active , .side-nav:focus{
+   
+
+
+}
+.side-nav.fixed.right-aligned{
+    top: 64px;
+}
+.side-nav  a{
+    color:#757575;
+    cursor: pointer;
+}
+.side-nav a:hover{
+    color: black;
+}
+.nav-wrapper ul li a i:hover {
+    background: white !important; 
+    color: black !important; 
+}
+@media all and (max-width : 992px) {
+    header, main, footer,#breadcrumb {
+        padding-right:  0;
+    }
+    .side-nav.fixed.right-aligned{
+        top: 0;
+    }
+}
+@media (pointer:coarse) {
+
+    .side-nav a{
+       /* overflow-y: auto;*/
+    }
+}
+

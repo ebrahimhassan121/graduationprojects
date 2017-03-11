@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+   <head>
+
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection" />
+        <!--Import Google Icon Font-->
+        <link href="../fonts/font.css" rel="stylesheet">
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link href="../css/stylesheet.css" rel="stylesheet">
+ 
+
+        <link type="text/css" href="../css/style.css" rel="stylesheet">
+        <link type="text/css" href="stylee.css" rel="stylesheet">
+        <title>حجز موعد</title>
+    </head>
+
+    <body style="direction: rtl;background: #f4f4f4;" class="" >
+
+
+        <ul id="slide-out" class="side-nav fixed " style=" padding-right: 0;padding-left: 0;padding-bottom: 60px;height: 100%; ">
+
+            <li><div class="userView">
+                    <div class="background">
+                        <img src="../imgs/user-bg.jpg">
+                    </div>
+                    <a href="#!user" class=""><img class="circle white " src="../imgs/User-Red-icon.png"></a>
+                    <a href="profile.html"><span class="white-text name"><h6>ابراهيم حسن</h6></span></a>
+                    <a href="https://ebrahimhassan121@gmail.com" target="blank"><span class="email " style="color:  #333333;">ebrahimhassan121@gmail.com</span></a>
+                </div></li>
+
+
+            <li class="" style="">
+                <a href="../index.html" style="">
+                    <i class="material-icons right" style="margin-left: 10px">home</i>
+                    الرئيسية
+
+                </a>
+            </li>
+            <li class="" style="">
+                <a href="reservedAppointment.html" style="">
+                    <i class="material-icons right" style="margin-left: 10px">receipt</i>
+                 ميعاد محجوز
+
+                </a>
+            </li>
+
+            <li class="" style="">
+                <a href="appointment.html" style="">
+                    <i class="material-icons right" style="margin-left: 10px">receipt</i>
+                    حجز ميعاد للتبرع
+
+                </a>
+            </li>
+            <li class="" style="">
+                <a href="history.html" style="">
+                    <i class="material-icons right" style="margin-left: 10px">history</i>
+                    سجل التبرع
+
+                </a>
+            </li>
+            <li class="" style="">
+                <a href="../hospitals.html" style="">
+                    <i class="material-icons right" style="margin-left: 10px">local_hospital</i>
+                    المستشفيات
+
+                </a>
+            </li>
+            <li class="" style="">
+                <a href="Settings.html" style="">
+                    <i class="material-icons right" style="margin-left: 10px">settings</i>
+                    الاعدادت
+
+                </a>
+            </li>
+
+
+
+            <li class="white-text" style="">
+                <a href="../aboutUs.html" style="">
+                    <i class="material-icons right" style="margin-left: 10px">info</i>
+                    من نحن
+
+                </a>
+            </li>
+
+            <li class="" style="">
+                <a href="../questions.html" style="">
+                    <i class="material-icons right" style="margin-left: 10px">question_answer</i>
+                    نصائح و اسئلة
+
+                </a>
+            </li>
+            <li class="" style="border-bottom: 1px solid white">
+                <a href="../events.html" style="">
+                    <i class="material-icons right" style="margin-left: 10px">events</i>
+                    الاحداث
+
+                </a>
+            </li>
+
+
+            <li class="" style="border-bottom: 1px solid white">
+                <a href="../Login.html" style="">
+                    <i class="material-icons right" style="margin-left: 10px">power_settings_new</i>
+                    تسجيل الخروج
+
+                </a>
+            </li>
+
+        </ul>
+
+        <div class="navbar-fixed ">
+            <nav class="white">
+                <div class="nav-wrapper  ">
+
+                    <a href="../index.html" class="brand-logo green-text right" style="margin-right: 1%;"><img class="responsive-img" src="../logo.png" width="50" alt="logo"/> بنك الدم</a>
+                    <a href="#" data-activates="slide-out" class="button-collapse show-on-medium-and-down"><i class="material-icons green-text">menu</i></a>
+                    <ul class=" hide-on-small-and-down">
+                        <li class="" style="">
+                            <a href="../index.html" style="">
+                                
+                                تسجيل الخروج
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
+
+
+        <div class="row">
+            <nav class="green" id="breadcrumb">
+                <div class="nav-wrapper">
+                    <div class="col s12">
+                        <a href="profile.html" class="breadcrumb">حسابي</a>
+                        <a href="appointment.html" class="breadcrumb"> حجز ميعاد تبرع</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="row ">
+            <div class=" col l6 m12 s12 offset-l2 left ">
+                <div class="row  " style="">
+                    <div class="col  left s12  card green " style="">
+
+                        <h5 class="right white-text" >حجز معياد للتبرع</h5>
+                        <form style="display: block;">
+                            <select class="browser-default" style="">
+                                <option value="" disabled selected>المحافظة</option>
+                                <option value="1">الغربية</option>
+                                <option value="2">الشرقية</option>
+                                <option value="3"> القاهرة</option>
+                            </select>
+                            <br>
+                            <select class="browser-default" style="">
+                                <option value="" disabled selected>المدينة</option>
+                                <option value="1">الغربية</option>
+                                <option value="2">الشرقية</option>
+                                <option value="3"> القاهرة</option>
+                            </select>
+                            <br>
+                            <select class="browser-default" style="">
+                                <option value="" disabled selected>مستشفي</option>
+                                <option value="1">الدمرداش</option>
+                                <option value="2">المجمع الطبي</option>
+                                <option value="3"> المنشاوي</option>
+                            </select>
+                            <br>
+                            <div class="input-field col s6 m6 l6 right white-text ">
+                                <input type="date" id="birthdate" class="datepicker" 
+                                       style="    color: black;background: rgba(255,255,255,0.9);border-radius: 3px;"
+                                       />
+                                <label for="birthdate" style="padding:3px;color: black">اختيار التاريخ</label>
+                            </div>
+
+                            <div class="input-field col s6 l6 m6  right">
+                                <select class="browser-default">
+                                    <option value="1" disabled selected > الوقت المتاح </option>
+                                    <option value="1"> 09:00 AM</option>
+                                    <option value="2"> 10:00 AM</option>
+                                    <option value="3"> 11:00 AM</option>
+                                    <option value="1"> 12:00 AM</option>
+                                    <option value="2"> 01:00 AM</option>
+                                    <option value="3"> 02:00 AM</option>
+                                    <option value="1"> 03:00 AM</option>
+                                </select>
+
+                            </div>               
+
+                            <!-- birth day in millisecond !-->
+                            <input  type="text" name="dat_inMs" id="dat_inMs" value="unset" hidden />
+
+                            <br>
+                            <a class=" btn btn-large col s12 white waves-effect waves-green teal-text" style="margin-bottom: 20px" href="#">اتمام</a>
+
+                        </form>
+                        <br>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+        
+
+
+   
+
+
+
+        <footer class=" page-footer green">
+            <div class="footer-copyright">
+                <div class="container">
+                    © جميع الحقوق محفوظة لمطورين بنك الدم ™ 2017
+                    <span class="left" style="margin-left:20px"> <a class="grey-text text-lighten-4 " href="#!" style="margin:30px auto">الانضمام لنا</a> </span>
+                    <span class="left" style="margin-left:20px"> <a class="grey-text text-lighten-4 " href="#!" style="margin:30px auto">الشروط والاحكام</a> </span>
+                    <span class="left" style="margin-left:20px"> <a class="grey-text text-lighten-4 " href="#!" style="margin:30px auto">مركز المساعدة</a> </span>
+
+                </div>
+            </div>
+        </footer>
+
+
+
+
+
+
+
+        <!--Import jQuery before materialize.js-->
+        <script type="text/javascript" src="../js/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="../js/materialize.js"></script>
+        <script type="text/javascript" src="../js/script.js"></script>
+        <script>
+
+
+            var yyy = new Date().getFullYear();
+            var max_yyy = yyy - 18;
+            var min_yyy = yyy - 65;
+            var max_date = new Date();
+            max_date.setMilliseconds(max_date.getMilliseconds() + (31 * 24 * 60 * 60 * 1000));
+
+            $('.datepicker').pickadate({
+                selectMonths: true, // Creates a dropdown to control month
+                selectYears: 15, // Creates a dropdown of 15 years to control year
+                format: 'dd-mm-yyyy',
+                disable: [[2017, 3, 15]]
+
+            });
+            picker.set('min', new Date());
+            picker.set('max', max_date);
+            picker.set('disable', [
+                new Date(2017, 2, 13),
+                new Date(2017, 2, 29)]
+                    );
+            
+
+        </script>
+        
+    </body>
+
+</html>
