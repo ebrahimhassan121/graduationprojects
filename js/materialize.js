@@ -918,9 +918,9 @@ if (jQuery) {
 
         var openModal = function($trigger) {
           var $body = $('body');
-          var oldWidth = $body.innerWidth();
+         // var oldWidth = $body.innerWidth();
           $body.css('overflow', 'hidden');
-          $body.width(oldWidth);
+          $body.width($(window).width());
 
           if ($modal.hasClass('open')) {
             return;
