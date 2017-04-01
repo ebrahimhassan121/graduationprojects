@@ -28,7 +28,7 @@ and open the template in the editor.
     <body style="direction: rtl;background: #f4f4f4;" class="" >
 
 
-        
+  
         <ul id="slide-out" class="side-nav green" style="padding-right: 0;">
             <li class="white"> 
                 <a href="index.html" class=" green-text  " style=""><img src="logo.png" class="brand-logo right" width="48"/><h5 style="margin-top: 0px;padding-top: 20px"> بنك الدم</h5></a>
@@ -118,13 +118,15 @@ and open the template in the editor.
                 </div>
             </nav>
         </div>
+        
+        
 
         <div class="row">
             <nav class="green" id="breadcrumb">
                 <div class="nav-wrapper">
                     <div class="col s12">
-                        <a href="index.html" class="breadcrumb">حسابي</a>
-                        <a href="questions.html" class="breadcrumb"> المستشفيات</a>
+                        <a href="index.html" class="breadcrumb">الرئيسية</a>
+                        <a href="hospitals.html" class="breadcrumb"> المستشفيات</a>
                     </div>
                 </div>
             </nav>
@@ -137,21 +139,25 @@ and open the template in the editor.
                         <h5 class="right black-text" >دليل المستشفيات</h5>
                     </div>
                     <div class="row ">
+                        <form>
+
                         
-                        <select class="col  l6 m6 s12  browser-default" style="">
+                        <select class="col  l4 m6 s12 right browser-default" style="">
                                 <option value="" disabled selected>اختيار المحافظة</option>
                                 <option value="1">الغربية</option>
                                 <option value="2">الشرقية</option>
                                 <option value="3"> القاهرة</option>
                             </select>
-                            <br>
-                            <select class="col  l6 m6 s12 browser-default" style="">
+                          
+                            <select class="col  l4 m6 s12 right browser-default" style="">
                                 <option value="" disabled selected> اختيار المدينة</option>
                                 <option value="1">الغربية</option>
                                 <option value="2">الشرقية</option>
                                 <option value="3"> القاهرة</option>
                             </select>
-                           
+                    <button type="submit" class="btn  left col l2 m3 s4 green white-text" style="" >تطبيق</button>
+                          
+                           </form>
                     </div>
 
                     <div class="col  left s12  card white " style="padding: 20px">
@@ -286,74 +292,7 @@ and open the template in the editor.
         <script type="text/javascript" src="js/materialize.js"></script>
         <script type="text/javascript" src="js/script.js"></script>
         <script type="text/javascript" src="https://cdn.rawgit.com/chingyawhao/materialize-clockpicker/master/dist/js/materialize.clockpicker.js"></script>
-        <script>
-            $('.timepicker').pickatime({
-                default: 'now',
-                twelvehour: true, // change to 12 hour AM/PM clock from 24 hour
-                donetext: 'تم',
-                autoclose: true,
-                vibrate: true, // vibrate the device when dragging clock hand
+      
 
-            });
-
-            var yyy = new Date().getFullYear();
-            var max_yyy = yyy - 18;
-            var min_yyy = yyy - 65;
-            var max_date = new Date();
-            max_date.setMilliseconds(max_date.getMilliseconds() + (31 * 24 * 60 * 60 * 1000));
-
-            $('.datepicker').pickadate({
-                selectMonths: true, // Creates a dropdown to control month
-                selectYears: 15, // Creates a dropdown of 15 years to control year
-                format: 'dd-mm-yyyy',
-                disable: [[2017, 3, 15]]
-
-            });
-            picker.set('min', new Date());
-            picker.set('max', max_date);
-            picker.set('disable', [
-                new Date(2017, 2, 13),
-                new Date(2017, 2, 29)]
-                    );
-
-
-        </script>
-        <style>
-            
-            .side-nav {
-                overflow: hidden;
-                display: inline-block;
-            }
-            .side-nav:hover{
-                overflow-y: scroll;
-
-            }
-            .side-nav.fixed.right-aligned{
-                top: 64px;
-            }
-            .side-nav  a{
-                color:#757575;
-            }
-            .side-nav a:hover{
-                color: black;
-            }
-            .picker__date-display{
-                background-color: #26a69a;
-            }
-            .nav-wrapper ul li a i:hover {
-                background: white !important; 
-                color: black !important; 
-            }
-            @media all and (max-width : 992px) {
-                header, main, footer,#breadcrumb {
-                    padding-right:  0;
-                }
-                .side-nav.fixed.right-aligned{
-                    top: 0;
-                }
-            }
-
-        </style>
-    </body>
 
 </html>

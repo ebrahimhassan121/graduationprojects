@@ -7,6 +7,10 @@
 
 $(document).ready(function () {
 
+
+
+
+
     $('select').material_select();
 
 
@@ -20,12 +24,12 @@ $(document).ready(function () {
         starting_top: '4%', // Starting top style attribute
         ending_top: '10%', // Ending top style attribute
         ready: function (modal, trigger) { // Callback for Modal open. Modal and trigger parameters available.
-            $('body').css('width','100% !important');
+            $('body').css('width', '100% !important');
             //  alert("Ready");
             //  console.log(modal, trigger);
         },
         complete: function () {
-            
+
             // alert('Closed');
         } // Callback for Modal close
     }
@@ -46,7 +50,7 @@ $(document).ready(function () {
     }
     function is_touch_device() {
         return 'ontouchstart' in window        // works on most browsers 
-                || 'onmsgesturechange' in window;  // works on IE10 with some false positives
+            || 'onmsgesturechange' in window;  // works on IE10 with some false positives
     }
     ;
 
@@ -102,4 +106,3 @@ var picker = $input.pickadate('picker');
 picker.clear();
 
 
-    
