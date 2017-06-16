@@ -1,0 +1,89 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 10, 2017, 10:12:47 AM
+    Author     : evich
+*/
+header, main, footer ,#breadcrumb {
+    padding-right: 300px;
+}
+.side-nav {
+    overflow: hidden;
+    display: inline-block;
+}
+.side-nav:hover{
+    overflow-y: scroll;
+
+}
+.side-nav.fixed.right-aligned{
+    top: 64px;
+}
+.side-nav  a{
+    color:#757575;
+}
+.side-nav a:hover{
+    color: black;
+}
+.picker__date-display{
+    background-color: #26a69a;
+}
+.nav-wrapper ul li a i:hover {
+    background: white !important; 
+    color: black !important; 
+}
+
+
+            input[type=range]::-webkit-slider-thumb {
+                background-color: crimson;
+            }
+            input[type=range]::-moz-range-thumb {
+                background-color: crimson;
+            }
+            input[type=range]::-ms-thumb {
+                background-color: crimson;
+            }
+            /***** These are to edit the thumb and the text inside the thumb *****/
+            input[type=range] + .thumb {
+                background-color: crimson;
+            }
+            input[type=range] + .thumb.active .value {
+                color: white;
+            }
+            input[type="number"]::-webkit-outer-spin-button,
+            input[type="number"]::-webkit-inner-spin-button {
+                -webkit-appearance: none;
+                margin: 0;
+            }
+            input[type="number"] {
+                -moz-appearance: textfield;
+            }
+
+            /*
+            .input-field .prefix.active{
+                color: crimson;
+            }
+            
+
+input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid crimson;
+    box-shadow: 0 1px 0 0 crimson;
+textarea:focus {
+    outline-color: crimson;
+    box-shadow: 0 1px 0 0 crimson;
+}
+*/
+
+
+
+
+@media all and (max-width : 992px) {
+    header, main, footer,#breadcrumb {
+        padding-right:  0;
+    }
+    .side-nav.fixed.right-aligned{
+        top: 0;
+    }
+}
