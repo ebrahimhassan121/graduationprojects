@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head><meta charset="UTF-8">
+
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection" />
+        <!--Import Google Icon Font-->
+        <link href="../fonts/font.css" rel="stylesheet">
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link href="../css/stylesheet.css" rel="stylesheet">
+        <link href="../css/style.css" rel="stylesheet">
+        <link type="text/css" href="style.css" rel="stylesheet">
+
+    </head>
+
+    <body style="direction: rtl;background: #f4f4f4;" class="" >
+
+
+        <ul id="slide-out" class="side-nav fixed " style=" padding-right: 0;padding-left: 0;padding-bottom: 60px;height: 100%;" >
+
+            <li><div class="userView">
+                    <div class="background">
+                        <img src="../imgs/user-bg.jpg">
+                    </div>
+                    <a href="#!user" class=""><img class="circle white " src="../imgs/admin-icon.png"></a>
+                    <a href="profile.html"><span class="white-text name"><h6>مرحبا أحمد</h6></span></a>
+                    <a href="https://ebrahimhassan121@gmail.com" target="blank"><span class="email " style="color:  #333333;">demrdash@gmail.com</span></a>
+                </div></li>
+
+
+            <li class="" style="">
+                <a href="../index.html" style="">
+                    <i class="material-icons right" style="margin-left: 10px">home</i>
+                    الرئيسية
+
+                </a>
+            </li>
+
+            <li class="" style="">
+                <a href="AddHospital.html" style="">
+                    <i class="material-icons right" style="margin-left: 10px">person_add</i>
+                    اضافة مستشفي
+                </a>
+            </li>
+            <li class="" style="">
+                <a href="Blood.html" style="">
+                    <i class="material-icons right" style="margin-left: 10px">data_usage</i>
+                    عينات الدم
+                </a>
+            </li>
+            <li class="" style="">
+                <a href="Hospital.html" style="">
+                    <i class="material-icons right" style="margin-left: 10px">data_usage</i>
+                    مخزون الدم
+                </a>
+            </li>
+             <li class="" style="">
+                 <a href="messages.html" style="">
+                    <i class="material-icons right" style="margin-left: 10px">message</i>
+                   الرسائل
+                </a>
+            </li>
+
+            <li class="" style="">
+                <a href="setting.html" style="">
+                    <i class="material-icons right" style="margin-left: 10px">settings</i>
+                    الاعدادت
+
+                </a>
+            </li>
+            <li class="" style="">
+                <a href="../hospitals.html" style="">
+                    <i class="material-icons right" style="margin-left: 10px">local_hospital</i>
+                    المستشفيات
+
+                </a>
+            </li>
+
+
+
+
+            <li class="white-text" style="">
+                <a href="../aboutUs.html" style="">
+                    <i class="material-icons right" style="margin-left: 10px">info</i>
+                    من نحن
+
+                </a>
+            </li>
+
+            <li class="" style="">
+                <a href="../questions.html" style="">
+                    <i class="material-icons right" style="margin-left: 10px">question_answer</i>
+                    نصائح و اسئلة
+
+                </a>
+            </li>
+            <li class="" style="border-bottom: 1px solid white">
+                <a href="../events.html" style="">
+                    <i class="material-icons right" style="margin-left: 10px">events</i>
+                    الاحداث
+
+                </a>
+            </li>
+
+
+            <li class="" style="border-bottom: 1px solid white">
+                <a href="../index.html" style="">
+                    <i class="material-icons right" style="margin-left: 10px">power_settings_new</i>
+                    تسجيل الخروج
+
+                </a>
+            </li>
+
+        </ul>
+
+
+        <div class="navbar-fixed ">
+            <nav class="white">
+                <div class="nav-wrapper  ">
+
+                    <a href="../index.html" class="brand-logo green-text right" style="margin-right: 1%;"><img class="responsive-img" src="../logo.png" width="50" alt="logo"/> بنك الدم</a>
+                    <a href="#" data-activates="slide-out" class="button-collapse show-on-medium-and-down"><i class="material-icons green-text">menu</i></a>
+                    <ul class=" hide-on-small-and-down">
+                        <li class="" style="">
+                            <a href="../index.html" style="">
+
+                                تسجيل الخروج
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
+
+        <div class="row">
+            <nav class="green" id="breadcrumb">
+                <div class="nav-wrapper">
+                    <div class="col s12">
+                        <a href="profile.html" class="breadcrumb">حسابي</a>
+                        <a href="messages.html" class="breadcrumb">الرسائل </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="row " style="min-height: 70vh">
+            <div class=" col l6 m12 s12 offset-l2 left ">
+
+                <div class="row " style="">
+                    <div class="col  left s12  card white " style="">
+
+                        <h5 class="right black-text" >رسائل قادمة الي بنك الدم</h5>
+                    </div>
+
+
+                    <div class="col  left s12  card white " style="padding: 20px">
+
+                        <table class="white highlight responsive-table" cellpadding="0" cellspacing="0">
+                            <thead style="border: 1px #333 solid">
+                                <tr >
+                                    <th style="border-bottom:1px solid #333"><h5 class="center centered " >#</h5></th>
+
+                                    <th><h5 class="center centered"> البريد</h5></th>
+                                    <th><h5 class="center centered">التفاصيل</h5></th>
+
+
+                                </tr>
+                            </thead>
+                            <tbody class="" style="">
+
+                                <tr >
+                                    <td><h6 class="center">1</h6></td>
+
+                                    <td><h6 class="center">ebrahimhassan121@gmail.com</h6></td>
+                                    <td><h6 class="center">
+                                            <a class="waves-effect waves-light green btn" href="#modal1">التفاصيل</a>
+                                        </h6>
+                                        <!-- Modal Structure -->
+                                        <div id="modal1" class="modal modal-fixed-footer"  style="overflow: hidden">
+                                            <div class="green ">
+                                                <h4 class="center white-text" style="padding:0.5em">2017-7-6</h4>
+                                            </div>
+                                            <div class="modal-content">
+                                                <p style="white-space: normal">   
+                                                    السلام عليكم لو سمحتم سبق ورحت اتبرع بالدم ورفضوا لاني خارمه اذني قبلها بشهرين وقالوا انو احتاج اكمل سنه على الاقل بعدها اقدر اتبرع هل هالشي صحيح ،؟؟؟
+
+                                                </p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <a href="#modalmessage1" class="waves-effect waves-green btn-flat btn green white-text" >رد</a>
+                                                <a href="#!" class="modal-action modal-close waves-effect waves-light btn-flat left btn green white-text">اغلاق</a>
+                                            </div>
+                                        </div>
+                                        <div id="modalmessage1" class="modal modal-fixed-footer"  style="overflow: hidden">
+                                            <div class="green ">
+                                                <div class="center white-text" style="padding:0.5em ;font-size: 1.3em">ebrahimhassan121@gmail.com</div>
+                                            </div>
+                                            <div class="modal-content" style="overflow: auto">
+                                                <div class="row">
+                                                    <label for="messageHead1" class="col  right" style="color: black;font-size: 1.2rem;padding:0 0.75rem;">عنوان الرساله</label>
+                                                    <input 
+                                                        value="السلام عليكم لو سمحتم سبق ورحت اتبرع بالدم ورفضوا لاني خارمه اذني قبلها بشهرين وقالوا انو احتاج اكمل سنه على الاقل بعدها اقدر اتبرع هل هالشي صحيح ،؟؟؟ " id="messageHead1"
+                                                        type="text" style="border: 1px solid #9e9e9e;height: 2rem" 
+                                                        class="right col  s12input-text-name"
+                                                        >
+
+                                                </div>
+                                                <div class="row" >
+
+                                                    <label for="messageContent1" class="col  right" style="color: black;font-size: 1.2rem;padding:0 0.75rem;">محتوي الرساله</label>
+                                                    <textarea rows="8" class="col s12" name="messageContent1" id="message" required style="height: unset;max-width:100%"></textarea>
+                                                </div>
+                                                <br><br>
+
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="submit" class=" waves-effect waves-green btn-flat btn green white-text">ارسال</button>
+                                                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat left btn green white-text">اغلاق</a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <footer class=" page-footer green">
+            <div class="footer-copyright">
+                <div class="container">
+                    © جميع الحقوق محفوظة لمطورين بنك الدم ™ 2017
+                    <span class="left" style="margin-left:20px"> <a class="grey-text text-lighten-4 " href="#!" style="margin:30px auto">الانضمام لنا</a> </span>
+                    <span class="left" style="margin-left:20px"> <a class="grey-text text-lighten-4 " href="#!" style="margin:30px auto">الشروط والاحكام</a> </span>
+                    <span class="left" style="margin-left:20px"> <a class="grey-text text-lighten-4 " href="#!" style="margin:30px auto">مركز المساعدة</a> </span>
+
+                </div>
+            </div>
+        </footer>
+
+
+
+
+
+
+
+        <!--Import jQuery before materialize.js-->
+        <script type="text/javascript" src="../js/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="../js/materialize.js"></script>
+        <script type="text/javascript" src="../js/script.js"></script>
+        <script>
+
+            $(document).ready(function () {
+                "use strict";
+                console.clear();
+                $('#blood-quantity').keypress(validateNumber);
+            });
+
+
+
+        </script>
+        <style>
+            @media only screen and (max-width: 992px){
+
+                table.responsive-table td {
+                    min-height: 6.99em;
+                }
+            }
+            </style>
+        </body>
+
+    </html>
